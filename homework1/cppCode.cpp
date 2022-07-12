@@ -3,7 +3,7 @@ std::string reverse(std::string);
 int strLen(char* n);
 int main(){
    char wrd[6] = "hello";
-   std::cout << strLen(wrd) <<std::endl;
+   std::cout << strLength(wrd) <<std::endl;
    std::cout << reverse("hello world") << std:: endl;
 }
 std::string reverse(std::string word){
